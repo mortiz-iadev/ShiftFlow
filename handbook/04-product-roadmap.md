@@ -2,7 +2,7 @@
 
 | Campo | Valor |
 |--------|--------|
-| **Versión** | 0.1.1 |
+| **Versión** | 0.2.0 |
 | **Estado** | Approved |
 | **Fecha** | 2026-08-05 |
 | **Parte** | I — Constitución de producto |
@@ -77,9 +77,10 @@ Cualquier ampliación de alcance debe compensarse recortando otra partida In del
 - UX demo, Serilog, **runbook de arranque local** (Aspire/Docker; sin cloud).
 - Completar prompts stubs; handbook Partes III–V mínimas.
 - Quality gates; specs de dominio avanzado solo documentadas.
+- **Deck de slides** + **vídeo de presentación** (producto, evolución, arquitectura) — cierre mandatory (§4.5 del cap. 03).
 - Freeze demo; etiqueta `mvp-0.1`; retrospectiva SDAF.
 
-**DoD:** demo <15 min; prompt library usable; trazabilidad del camino crítico; cero features In sin spec.
+**DoD:** demo <15 min; prompt library usable; trazabilidad del camino crítico; cero features In sin spec; slides + vídeo publicados/referenciados en el repo.
 
 ---
 
@@ -90,7 +91,7 @@ Cualquier ampliación de alcance debe compensarse recortando otra partida In del
 | 3 ago | Fin Sprint 0 — fundación SDAF |
 | 9 ago | Fin Sprint 1 — núcleo maestros |
 | 15 ago | Fin Sprint 2 — asignación validada |
-| 22 ago | Release demo `mvp-0.1` |
+| 22 ago | Release demo `mvp-0.1` + slides + vídeo de presentación |
 
 ---
 
@@ -109,7 +110,7 @@ Orden sugerido tras el 22 ago:
 
 ## 6. Gestión de desvíos
 
-- Si se pierde capacidad: recortar en este orden — pulido UX → stub IA → leaves no críticos → un hard rule opcional del descanso mínimo; **nunca** el gate SDAF ni el flujo demo mínimo (maestros + asignar/rechazar solape).
+- Si se pierde capacidad: recortar en este orden — pulido UX → stub IA → leaves no críticos → un hard rule opcional del descanso mínimo; **nunca** el gate SDAF, el flujo demo mínimo (maestros + asignar/rechazar solape), el runtime local, ni el cierre slides+vídeo.
 - Si se gana capacidad: documentar reglas avanzadas en specs; no abrir Out del capítulo 03 sin enmienda.
 
 ---
@@ -126,5 +127,6 @@ Orden sugerido tras el 22 ago:
 
 | Versión | Fecha | Cambio |
 |---------|--------|--------|
+| 0.2.0 | 2026-08-05 | Enmienda Approved: slides + vídeo como cierre del Sprint 3 / hito 22 ago |
 | 0.1.1 | 2026-08-05 | Approved tras revisión humana |
 | 0.1.0 | 2026-08-05 | Borrador inicial (sesión H3) |

@@ -2,7 +2,7 @@
 
 | Campo | Valor |
 |--------|--------|
-| **Versión** | 0.1.7 |
+| **Versión** | 0.1.8 |
 | **Estado** | Draft (capítulos Approved según índice) |
 | **Idioma** | Español |
 | **Clasificación** | Constitución del proyecto |
@@ -166,6 +166,7 @@ Los **prompts** y **worklogs** son infraestructura de ingeniería, no sustituyen
 
 | Versión | Fecha | Cambio |
 |---------|--------|--------|
+| 0.1.8 | 2026-08-05 | Enmienda MVP/Roadmap: vídeo + slides de presentación mandatory |
 | 0.1.7 | 2026-08-05 | H3 cerrado: MVP Definition y Product Roadmap Approved |
 | 0.1.6 | 2026-08-05 | H3: Product Vision Approved |
 | 0.1.5 | 2026-08-05 | MVP: runtime local autocontenido mandatory |

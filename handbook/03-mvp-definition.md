@@ -2,7 +2,7 @@
 
 | Campo | Valor |
 |--------|--------|
-| **Versión** | 0.2.1 |
+| **Versión** | 0.3.0 |
 | **Estado** | Approved |
 | **Fecha** | 2026-08-05 |
 | **Parte** | I — Constitución de producto |
@@ -44,6 +44,7 @@ No se persigue despliegue productivo en cloud ni optimización automática de cu
 | Motores | Rule Engine v1 + Scheduling (asignación manual); resto diferido |
 | IA en MVP | Stub de infraestructura: explicación de reglas; **sin** mutar cuadrantes |
 | Ejecución para demo/pruebas | **Local autocontenida**; cloud no es requisito ni puerta de entrada |
+| Cierre comunicativo del MVP | **Vídeo de presentación** + **slides** (producto, evolución, arquitectura) |
 
 ### 3.1 Ejecución local autocontenida (mandatory)
 
@@ -104,6 +105,24 @@ Las reglas del documento funcional experto (contratos parciales, noches pares/im
 - Documentación de arranque local en el repositorio (runbook).
 - Datos o seed mínimos opcionales para acortar la demo, sin sustituir el flujo del §7.
 - Verificación de que el stack arranca en frío en una máquina limpia con los prerrequisitos declarados (SDK .NET, Docker Desktop o motor compatible).
+
+### 4.5 Presentación del MVP (mandatory)
+
+Como **punto final del entregable MVP** deben existir ambos artefactos, alineados entre sí:
+
+1. **Deck de slides** — presentación reutilizable (fuente en el repo, p. ej. `docs/presentation/mvp-0.1/`), en castellano.
+2. **Vídeo de presentación** — grabación que recorre el mismo relato que las slides (el archivo puede vivir fuera de Git si es pesado; el repo **debe** referenciar URL o ruta y checksum/fecha en el runbook o README de presentación).
+
+Contenido mínimo obligatorio (slides y vídeo):
+
+| Bloque | Debe cubrir |
+|--------|-------------|
+| Producto | Problema, propuesta de valor, alcance del MVP, demo del flujo crítico |
+| Evolución | Camino 1–22 ago (sprints), qué queda post-MVP, doble entregable producto + SDAF |
+| Arquitectura | Stack, Clean/CQRS/slices a alto nivel, Rule Engine + Scheduling, runtime local autocontenido, IA como infra sin mutación automática |
+
+Duración orientativa del vídeo: 8–15 minutos.  
+Las slides deben poder usarse en una defensa oral sin el vídeo.
 
 ---
 
@@ -167,7 +186,8 @@ El MVP se considera cerrado cuando:
 4. El handbook y la estructura SDAF permiten continuar sin pérdida de contexto.
 5. La demo del §7 es reproducible con **runbook local** breve (§4.4).
 6. Un evaluador puede levantar la infraestructura autocontenida en local **sin cuenta ni despliegue cloud**.
-7. Lo **Out** no se ha colado como dependencia bloqueante.
+7. Existen **slides** y **vídeo de presentación** del MVP (§4.5) cubriendo producto, evolución y arquitectura.
+8. Lo **Out** no se ha colado como dependencia bloqueante.
 
 ---
 
@@ -175,6 +195,7 @@ El MVP se considera cerrado cuando:
 
 - [ ] Web-only y diferidos (MAUI, Redis, SignalR, optimización, IA que escribe) quedan explícitos.
 - [ ] Runtime local autocontenido es mandatory; cloud no es requisito de demo/pruebas.
+- [ ] Vídeo + slides de cierre son mandatory (§4.5).
 - [ ] La lista In es demostrable en ~96 h; no reintroduce el alcance de 176 h.
 - [ ] Las reglas avanzadas del DOCX quedan en knowledge/specs, no en código obligatorio.
 - [ ] El DoD y el flujo demo son verificables.
@@ -185,6 +206,7 @@ El MVP se considera cerrado cuando:
 
 | Versión | Fecha | Cambio |
 |---------|--------|--------|
+| 0.3.0 | 2026-08-05 | Enmienda Approved: vídeo + slides de presentación como cierre mandatory del MVP |
 | 0.2.1 | 2026-08-05 | Approved tras revisión humana (incluye runtime local mandatory) |
 | 0.2.0 | 2026-08-05 | Runtime local autocontenido mandatory; cloud excluido como camino de demo |
 | 0.1.0 | 2026-08-05 | Borrador inicial (sesión H3); corte equilibrado SDAF + producto |
