@@ -2,8 +2,8 @@
 
 | Campo | Valor |
 |--------|--------|
-| **Versión** | 0.1.0 |
-| **Estado** | Draft |
+| **Versión** | 0.1.1 |
+| **Estado** | Approved |
 | **Fecha** | 2026-08-05 |
 | **Parte** | II — SDAF |
 | **Norma superior** | [00-preface.md](00-preface.md), Parte I |
@@ -139,4 +139,5 @@ Las reglas de esta Parte II deben poder aplicarse a otro producto .NET con cambi
 
 | Versión | Fecha | Cambio |
 |---------|--------|--------|
+| 0.1.1 | 2026-08-05 | Approved tras revisión humana |
 | 0.1.0 | 2026-08-05 | Borrador inicial (sesión H4) |

@@ -2,8 +2,8 @@
 
 | Campo | Valor |
 |--------|--------|
-| **Versión** | 0.1.0 |
-| **Estado** | Draft |
+| **Versión** | 0.1.1 |
+| **Estado** | Approved |
 | **Fecha** | 2026-08-05 |
 | **Parte** | II — SDAF |
 | **Norma superior** | [05-sdaf-framework.md](05-sdaf-framework.md), [01-product-charter.md](01-product-charter.md) |
@@ -114,4 +114,5 @@ Identificadores de código pueden seguir convenciones técnicas en inglés si el
 
 | Versión | Fecha | Cambio |
 |---------|--------|--------|
+| 0.1.1 | 2026-08-05 | Approved tras revisión humana |
 | 0.1.0 | 2026-08-05 | Borrador inicial (sesión H4) |
