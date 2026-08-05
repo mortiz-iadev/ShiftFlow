@@ -2,8 +2,8 @@
 
 | Campo | Valor |
 |--------|--------|
-| **Versión** | 0.1.10 |
-| **Estado** | Draft (capítulos Approved según índice) |
+| **Versión** | 1.0.0 |
+| **Estado** | Approved |
 | **Idioma** | Español |
 | **Clasificación** | Constitución del proyecto |
 | **Última actualización** | 2026-08-05 |
@@ -61,48 +61,48 @@ Los **prompts** y **worklogs** son infraestructura de ingeniería, no sustituyen
 
 | Cap. | Archivo | Título | Estado |
 |------|---------|--------|--------|
-| 05 | [05-sdaf-framework.md](05-sdaf-framework.md) | SDAF Framework | Draft |
-| 06 | [06-engineering-principles.md](06-engineering-principles.md) | Engineering Principles | Draft |
-| 07 | [07-repository-organization.md](07-repository-organization.md) | Repository Organization | Draft |
-| 08 | [08-specification-standard.md](08-specification-standard.md) | Specification Standard | Draft |
-| 09 | [09-development-workflow.md](09-development-workflow.md) | Development Workflow | Draft |
+| 05 | [05-sdaf-framework.md](05-sdaf-framework.md) | SDAF Framework | Approved |
+| 06 | [06-engineering-principles.md](06-engineering-principles.md) | Engineering Principles | Approved |
+| 07 | [07-repository-organization.md](07-repository-organization.md) | Repository Organization | Approved |
+| 08 | [08-specification-standard.md](08-specification-standard.md) | Specification Standard | Approved |
+| 09 | [09-development-workflow.md](09-development-workflow.md) | Development Workflow | Approved |
 
 ### Parte III — Arquitectura
 
 | Cap. | Archivo | Título | Estado |
 |------|---------|--------|--------|
-| 10 | [10-solution-architecture.md](10-solution-architecture.md) | Solution Architecture | Pendiente |
-| 11 | [11-ddd-and-bounded-contexts.md](11-ddd-and-bounded-contexts.md) | DDD and Bounded Contexts | Pendiente |
-| 12 | [12-cqrs-vertical-slices.md](12-cqrs-vertical-slices.md) | CQRS and Vertical Slices | Pendiente |
+| 10 | [10-solution-architecture.md](10-solution-architecture.md) | Solution Architecture | Approved |
+| 11 | [11-ddd-and-bounded-contexts.md](11-ddd-and-bounded-contexts.md) | DDD and Bounded Contexts | Approved |
+| 12 | [12-cqrs-vertical-slices.md](12-cqrs-vertical-slices.md) | CQRS and Vertical Slices | Approved |
 
 ### Parte IV — Ingeniería IA
 
 | Cap. | Archivo | Título | Estado |
 |------|---------|--------|--------|
-| 13 | [13-ai-agent-framework.md](13-ai-agent-framework.md) | AI Agent Framework | Pendiente |
-| 14 | [14-prompt-engineering-standard.md](14-prompt-engineering-standard.md) | Prompt Engineering Standard | Pendiente |
-| 15 | [15-agent-traceability.md](15-agent-traceability.md) | Agent Traceability Framework | Pendiente |
+| 13 | [13-ai-agent-framework.md](13-ai-agent-framework.md) | AI Agent Framework | Approved |
+| 14 | [14-prompt-engineering-standard.md](14-prompt-engineering-standard.md) | Prompt Engineering Standard | Approved |
+| 15 | [15-agent-traceability.md](15-agent-traceability.md) | Agent Traceability Framework | Approved |
 
 ### Parte V — Calidad y entrega
 
 | Cap. | Archivo | Título | Estado |
 |------|---------|--------|--------|
-| 16 | [16-testing-framework.md](16-testing-framework.md) | Testing Framework | Pendiente |
-| 17 | [17-code-review-and-quality-gates.md](17-code-review-and-quality-gates.md) | Code Review and Quality Gates | Pendiente |
-| 18 | [18-devops.md](18-devops.md) | DevOps | Pendiente |
+| 16 | [16-testing-framework.md](16-testing-framework.md) | Testing Framework | Approved |
+| 17 | [17-code-review-and-quality-gates.md](17-code-review-and-quality-gates.md) | Code Review and Quality Gates | Approved |
+| 18 | [18-devops.md](18-devops.md) | DevOps | Approved |
 
 ### Parte VI — Operación
 
 | Cap. | Archivo | Título | Estado |
 |------|---------|--------|--------|
-| 19 | [19-sprint-planning-and-metrics.md](19-sprint-planning-and-metrics.md) | Sprint Planning and Metrics | Pendiente |
+| 19 | [19-sprint-planning-and-metrics.md](19-sprint-planning-and-metrics.md) | Sprint Planning and Metrics | Approved |
 
 ### Apéndices
 
 | Cap. | Archivo | Título | Estado |
 |------|---------|--------|--------|
-| A | [A-glossary.md](A-glossary.md) | Glossary | Pendiente |
-| B | [B-templates.md](B-templates.md) | Templates | Pendiente |
+| A | [A-glossary.md](A-glossary.md) | Glossary | Approved |
+| B | [B-templates.md](B-templates.md) | Templates | Approved |
 | — | [CHANGELOG.md](CHANGELOG.md) | Historial de versiones | Draft |
 
 ---
@@ -166,6 +166,11 @@ Los **prompts** y **worklogs** son infraestructura de ingeniería, no sustituyen
 
 | Versión | Fecha | Cambio |
 |---------|--------|--------|
+| 1.0.0 | 2026-08-05 | Handbook completo Approved (caps. 00–19, A–B) |
+| 0.1.14 | 2026-08-05 | H8 Draft: testing, quality gates, devops, metrics, apéndices |
+| 0.1.13 | 2026-08-05 | H7 Draft: agentes, prompts, ATF |
+| 0.1.12 | 2026-08-05 | Parte II Approved (caps. 05–09) |
+| 0.1.11 | 2026-08-05 | H6 Draft: solution architecture, DDD, CQRS/slices |
 | 0.1.10 | 2026-08-05 | H5 Draft: specification standard + development workflow |
 | 0.1.9 | 2026-08-05 | H4 Draft: SDAF, principios, organización del repo |
 | 0.1.8 | 2026-08-05 | Enmienda MVP/Roadmap: vídeo + slides de presentación mandatory |
