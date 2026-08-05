@@ -2,6 +2,7 @@
 
 | Versión handbook | Fecha | Cambio |
 |------------------|--------|--------|
+| 0.1.10 | 2026-08-05 | H5 Draft: `08-specification-standard.md`, `09-development-workflow.md` |
 | 0.1.9 | 2026-08-05 | H4 Draft: `05-sdaf-framework.md`, `06-engineering-principles.md`, `07-repository-organization.md` |
 | 0.1.8 | 2026-08-05 | Enmienda Approved: vídeo + slides de presentación (`03` v0.3.0, `04` v0.2.0) |
 | 0.1.7 | 2026-08-05 | H3 cerrado: `03-mvp-definition.md` y `04-product-roadmap.md` Approved |

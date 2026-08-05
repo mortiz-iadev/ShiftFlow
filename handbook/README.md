@@ -2,7 +2,7 @@
 
 | Campo | Valor |
 |--------|--------|
-| **Versión** | 0.1.9 |
+| **Versión** | 0.1.10 |
 | **Estado** | Draft (capítulos Approved según índice) |
 | **Idioma** | Español |
 | **Clasificación** | Constitución del proyecto |
@@ -64,8 +64,8 @@ Los **prompts** y **worklogs** son infraestructura de ingeniería, no sustituyen
 | 05 | [05-sdaf-framework.md](05-sdaf-framework.md) | SDAF Framework | Draft |
 | 06 | [06-engineering-principles.md](06-engineering-principles.md) | Engineering Principles | Draft |
 | 07 | [07-repository-organization.md](07-repository-organization.md) | Repository Organization | Draft |
-| 08 | [08-specification-standard.md](08-specification-standard.md) | Specification Standard | Pendiente |
-| 09 | [09-development-workflow.md](09-development-workflow.md) | Development Workflow | Pendiente |
+| 08 | [08-specification-standard.md](08-specification-standard.md) | Specification Standard | Draft |
+| 09 | [09-development-workflow.md](09-development-workflow.md) | Development Workflow | Draft |
 
 ### Parte III — Arquitectura
 
@@ -166,6 +166,7 @@ Los **prompts** y **worklogs** son infraestructura de ingeniería, no sustituyen
 
 | Versión | Fecha | Cambio |
 |---------|--------|--------|
+| 0.1.10 | 2026-08-05 | H5 Draft: specification standard + development workflow |
 | 0.1.9 | 2026-08-05 | H4 Draft: SDAF, principios, organización del repo |
 | 0.1.8 | 2026-08-05 | Enmienda MVP/Roadmap: vídeo + slides de presentación mandatory |
 | 0.1.7 | 2026-08-05 | H3 cerrado: MVP Definition y Product Roadmap Approved |
