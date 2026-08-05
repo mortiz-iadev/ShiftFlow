@@ -2,11 +2,11 @@
 
 | Campo | Valor |
 |--------|--------|
-| **Versión** | 0.1.2 |
+| **Versión** | 0.1.7 |
 | **Estado** | Draft (capítulos Approved según índice) |
 | **Idioma** | Español |
 | **Clasificación** | Constitución del proyecto |
-| **Última actualización** | 2026-08-01 |
+| **Última actualización** | 2026-08-05 |
 
 ---
 
@@ -52,10 +52,10 @@ Los **prompts** y **worklogs** son infraestructura de ingeniería, no sustituyen
 
 | Cap. | Archivo | Título | Estado |
 |------|---------|--------|--------|
-| 01 | [01-product-charter.md](01-product-charter.md) | Product Charter | Draft |
-| 02 | [02-product-vision.md](02-product-vision.md) | Product Vision | Pendiente |
-| 03 | [03-mvp-definition.md](03-mvp-definition.md) | MVP Definition | Pendiente |
-| 04 | [04-product-roadmap.md](04-product-roadmap.md) | Product Roadmap | Pendiente |
+| 01 | [01-product-charter.md](01-product-charter.md) | Product Charter | Approved |
+| 02 | [02-product-vision.md](02-product-vision.md) | Product Vision | Approved |
+| 03 | [03-mvp-definition.md](03-mvp-definition.md) | MVP Definition | Approved |
+| 04 | [04-product-roadmap.md](04-product-roadmap.md) | Product Roadmap | Approved |
 
 ### Parte II — SDAF
 
@@ -166,6 +166,11 @@ Los **prompts** y **worklogs** son infraestructura de ingeniería, no sustituyen
 
 | Versión | Fecha | Cambio |
 |---------|--------|--------|
+| 0.1.7 | 2026-08-05 | H3 cerrado: MVP Definition y Product Roadmap Approved |
+| 0.1.6 | 2026-08-05 | H3: Product Vision Approved |
+| 0.1.5 | 2026-08-05 | MVP: runtime local autocontenido mandatory |
+| 0.1.4 | 2026-08-05 | H2 Approved: product charter |
+| 0.1.3 | 2026-08-05 | H3 Draft: vision, MVP, roadmap |
 | 0.1.2 | 2026-08-01 | H2 Draft: product charter |
 | 0.1.1 | 2026-08-01 | H1 Approved: preface |
 | 0.1.0 | 2026-08-01 | Creación del índice y mapa normativo (sesión H1) |

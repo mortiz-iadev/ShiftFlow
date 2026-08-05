@@ -2,9 +2,9 @@
 
 | Campo | Valor |
 |--------|--------|
-| **Versión** | 0.1.0 |
-| **Estado** | Draft |
-| **Fecha** | 2026-08-01 |
+| **Versión** | 0.1.1 |
+| **Estado** | Approved |
+| **Fecha** | 2026-08-05 |
 | **Parte** | I — Constitución de producto |
 | **Norma superior** | [00-preface.md](00-preface.md) |
 | **Deriva hacia** | [02-product-vision.md](02-product-vision.md), [03-mvp-definition.md](03-mvp-definition.md), [04-product-roadmap.md](04-product-roadmap.md), specs de producto |
@@ -274,4 +274,5 @@ Este charter no sustituye al SDAF Framework (cap. 05) ni al detalle de MVP (cap.
 
 | Versión | Fecha | Cambio |
 |---------|--------|--------|
+| 0.1.1 | 2026-08-05 | Approved tras revisión humana |
 | 0.1.0 | 2026-08-01 | Reescritura H2 desde semilla externa; alineado a SDAF y MVP Web-only |
