@@ -3,8 +3,8 @@
 | Campo | Valor |
 |--------|--------|
 | ID | SPEC-PRD-002 |
-| Versión | 0.1.0 |
-| Estado | Draft |
+| Versión | 0.1.1 |
+| Estado | Approved |
 | Fecha | 2026-08-05 |
 | Fuentes | `handbook/03-mvp-definition.md` §7–§8 |
 | ADRs relacionados | ADR-001, ADR-002, ADR-003 |
@@ -96,4 +96,5 @@ Entonces el journey AC-01…AC-04 puede ejecutarse sin desplegar en cloud
 
 | Versión | Fecha | Cambio |
 |---------|--------|--------|
+| 0.1.1 | 2026-08-05 | Approved tras revisión humana |
 | 0.1.0 | 2026-08-05 | Borrador inicial Sprint 0 |

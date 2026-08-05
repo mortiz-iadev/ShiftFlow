@@ -3,8 +3,8 @@
 | Campo | Valor |
 |--------|--------|
 | ID | SPEC-PRD-001 |
-| Versión | 0.1.0 |
-| Estado | Draft |
+| Versión | 0.1.1 |
+| Estado | Approved |
 | Fecha | 2026-08-05 |
 | Fuentes | `handbook/03-mvp-definition.md` (Approved), `handbook/02-product-vision.md` |
 | ADRs relacionados | ADR-001, ADR-002, ADR-003 |
@@ -73,4 +73,5 @@ Según handbook §5 / ADRs: MAUI, Redis, SignalR, optimización automática, IA 
 
 | Versión | Fecha | Cambio |
 |---------|--------|--------|
+| 0.1.1 | 2026-08-05 | Approved tras revisión humana |
 | 0.1.0 | 2026-08-05 | Borrador inicial Sprint 0 |
